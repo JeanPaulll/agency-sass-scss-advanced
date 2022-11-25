@@ -5,19 +5,17 @@ Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Cat
 
 ## Para visualizar o resultado acesse:
 
-[Resultado Final]([https:///www.texoit.com](https://jeanpaulll.github.io/agency-sass-scss-advanced/))
+[Resultado Final](https://jeanpaulll.github.io/agency-sass-scss-advanced)
 
 
 ## Recursos que abordados:
-
-Variáveis;
-Nesting;
-Mixins;
-Partials;
-Modulos do SASS;
-Heranças;
-Operadores de seleção;
-
+- Variáveis;
+- Nesting;
+- Mixins;
+- Partials;
+- Modulos do SASS;
+- Heranças;
+- Operadores de seleção;
 
 ## Author
 >Jean Paul
