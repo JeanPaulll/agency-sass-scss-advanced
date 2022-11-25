@@ -1,5 +1,5 @@
 # Projeto de estudo SASS e SCSS
-#### Este é um projeto de estudo SASS. Criando um site reponsivo para uma agência usando SASS
+#### Este é um projeto de estudo SASS. Criando um site responsivo para uma agência usando SASS
 
 Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Catlin e desenvolvida por Natalie Weizenbaum
 
@@ -7,8 +7,7 @@ Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Cat
 
 [Página](https://jeanpaulll.github.io/agency-sass-scss-advanced)
 
-
-## Recursos que abordados:
+## Recursos Implementados:
 - Variáveis;
 - Nesting;
 - Mixins;
@@ -16,6 +15,11 @@ Sass é uma linguagem de folhas de estilo concebida inicialmente por Hampton Cat
 - Modulos do SASS;
 - Heranças;
 - Operadores de seleção;
+
+## Libs:
+- https://fonts.google.com/specimen/Roboto+Condensed
+- https://cdnjs.com/libraries/font-awesome
+- https://sass-lang.com/
 
 ## Author
 >Jean Paul
