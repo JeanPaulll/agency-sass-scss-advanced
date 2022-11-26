@@ -1,4 +1,4 @@
-//Mixins
+// Mixins
 @mixin reset
     *
         font-family: 'Roboto Condensed', sans-serif
@@ -15,8 +15,11 @@
     &:hover
         color: $primary-color
 
-// BTNs
+// PLACEHOLDER    
+%title-text-shadow
+    text-shadow: 3px 2px $black
 
+// BTN
 .btn
     padding: .6rem 1rem
     color: $light-color
@@ -36,4 +39,6 @@
     &-rounded
         margin-top: 1rem
         border-radius: 2rem
-        padding: 1rem
+        padding: 1rem 1.5rem
+        &:hover
+            color: $primary-color !important

@@ -7,7 +7,6 @@
     height: 85vh
     background-size: cover
     background-position: center
-
     .nav-container
         display: flex
         justify-content: space-between
@@ -35,3 +34,17 @@
             font-size: 2rem
             color: $light-color
             display: none
+    .title-container
+        display: flex
+        flex-direction: column
+        align-items: center
+        justify-content: center
+        height: 100%
+        color: $light-color
+        h2
+            font-size: 2rem
+            @extend %title-text-shadow
+        h1
+            font-size: 3rem
+            margin-top: 1rem
+            @extend %title-text-shadow
