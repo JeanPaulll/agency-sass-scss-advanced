@@ -16,4 +16,22 @@
         left: 0
         width: 100%
         padding: 1.5rem 2rem
-        background-color: #fff
+        background-color: $black
+        z-index: 10
+        .brand
+            color: $light-color
+            font-size: 2rem
+            @include main-hover
+        &-navbar
+            display: flex
+            align-items: center
+            height: 100%
+            li
+                margin: 5px 10px
+                a
+                    color: $light-color
+                    @include main-hover
+        .fas.fa-bars
+            font-size: 2rem
+            color: $light-color
+            display: none
