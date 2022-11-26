@@ -48,3 +48,39 @@
             font-size: 3rem
             margin-top: 1rem
             @extend %title-text-shadow
+.services-container
+    text-align: center
+    padding: 2rem
+    margin-bottom: 2rem
+    h2
+        @extend %section-title
+
+    .services-card-container
+        display: flex
+        flex-wrap: wrap
+        justify-content: space-around
+        padding: 2rem
+        .services-card
+            width: 30%
+            padding: 1%
+            padding: 2rem
+            border: 1px solid #ccc
+            transition: .4s
+            margin-bottom: 2rem
+            border-radius: 5px
+            i
+                color: $primary-color
+                font-size: 3rem
+                display: block
+                margin: 1rem 0
+            h3
+                font-size: 1.5rem
+                margin-bottom: 1rem
+            p
+                color: $text-color
+            &:hover
+                border: transparent
+                box-shadow: 0 1px 10px #ccc
+                background-color: $primary-color
+                p, i, h3
+                    color: $light-color
